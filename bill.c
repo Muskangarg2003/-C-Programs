@@ -30,6 +30,7 @@ main()
 	{
 		total=wc+(cd*cost)+(l*20)+(et*price);
 	}
+	printf("total=%s",total);
 	return 0;
 	
 	
