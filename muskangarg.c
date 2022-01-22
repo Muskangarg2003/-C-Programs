@@ -22,9 +22,13 @@ main()
 	printf ("\n Enter the price : Rs.");
 	scanf("%d",&price);
 	if(diets>cd)
-	total=wc+(cd*cost)+((diets-cd)*cost)+(l*20)+(et*price);
+	{
+	      total=wc+(cd*cost)+((diets-cd)*cost)+(l*20)+(et*price);
+	}
 	else
-	total=wc+(cd*cost)+(l*20)+(et*price);
+	{
+	      total=wc+(cd*cost)+(l*20)+(et*price);
+	}
 	printf("\n            TOTAL BILL=%d",total);
 	return 0;
 }
